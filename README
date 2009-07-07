@@ -1,0 +1,45 @@
+Listabl.es
+-------------------------------------------------------------------------------
+Author:        Juan Uys <opyate@gmail.com>
+Date:          2009.07.07
+-------------------------------------------------------------------------------
+
+
+1. Introduction
+-------------------------------------------------------------------------------
+
+"Lists on the web"
+
+Represent lists of ontologies described using RDF. Eliminate the need for
+each and every web-site - be it social, retail, etc - to store lists of data,
+e.g. friends list on FaceBook, or books listing on Amazon.
+
+FaceBook will now be able to get your latest friends list from a listabl.es
+implementation, either hosted by the users themselves, hosted in the cloud,
+or hosted on http://listabl.es
+
+The data will have value to systems, which is the driving force behind the
+Semantic Web.
+
+
+2. Implementation
+-------------------------------------------------------------------------------
+
+2.1 Tech used
+
+Lift
+
+2.2 Created with Maven
+
+mvn archetype:generate -U \
+  -DarchetypeGroupId=net.liftweb \
+  -DarchetypeArtifactId=lift-archetype-blank \
+  -DarchetypeVersion=1.0 \
+  -DremoteRepositories=http://scala-tools.org/repo-releases \
+  -DgroupId=es.listabl \
+  -DartifactId=listabl.es \
+  -Dversion=1.0-SNAPSHOT
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
